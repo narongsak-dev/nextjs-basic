@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Page()
 {
     return (
-        <div>
+        <div className='text-center'>
             <HeaderOne />
             <h1>Home Content</h1>
             {/* <Link href="/about" className='text-blue-500'>
