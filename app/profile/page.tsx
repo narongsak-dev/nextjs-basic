@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Profile()
 {
     return (
-        <div>
+        <div className='text-center'>
             <HeaderOne />
             <h1>Profile Content</h1>
             {/* <Link href='/home' className="text-yellow-500">
