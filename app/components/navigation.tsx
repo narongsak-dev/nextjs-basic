@@ -17,6 +17,8 @@ export default function Navigation()
             <Link href="/about" className={pathname==='/about'? "active": ""}>About</Link>
             |
             <Link href="/profile" className={pathname==='/profile'? "active": ""}>Profile</Link>
+            |
+            <Link href="/products" className={pathname==='/products'? "active": ""}>Product</Link>
             {/* <Link href="/home" className={isActive('/home')? "active": ""}>Home</Link>
             |
             <Link href="/about" className={pathname==='/about'? "active": ""}>About</Link>
